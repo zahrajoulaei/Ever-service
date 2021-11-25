@@ -22,8 +22,8 @@ const DeviceInfo = (props) => {
         <div className="device-part">
           {selectedDevice && 
             <DeviceInformation 
-              id="12"
-              deviceText= "Iphone"
+              id={props.id} 
+              deviceText={props.deviceText}
             />
           } 
         </div>
